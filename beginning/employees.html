@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 05 - Employee Management Application</title>
+    <script src="js/employee-management.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <div class="app">
+            <h4>Add Employee</h4>
+            <form novalidate>
+                <div>
+                    <label for="name">Enter Name:</label>
+                    <input id="name" type="text">
+                    <span class="error" id="name-error"> </span>
+                </div>
+                <div>
+                    <label for="title">Enter Title:</label>
+                    <input id="title" type="text">
+                    <span class="error" id="title-error"> </span>
+                </div>
+                <div>
+                    <label for="entension">Enter Extension:</label>
+                    <input id="extension" type="text">
+                    <span class="error" id="extension-error"> </span>
+                </div>
+            </form>
+
+            <input type="submit" id="enter" value='Enter'>
+
+            <h4>Showing <span id="num-employees"> </span> Employees</h4>
+            <table id="table">
+                <tr>
+                    <th>NAME</th>
+                    <th>TITLE</th>
+                    <th>EXTENSION</th>
+                    <th>DELETE</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

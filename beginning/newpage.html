@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Page</title>
+    <script>
+        window.addEventListener('load', init);
+        
+        function init(){
+            'use strict';
+            var width = 500;
+            var height = 300;
+            
+            window.resizeTo(width, height);
+            window.moveTo(((window.screen.width - width) / 2),
+                          ((window.screen.height - height) / 2));
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+.app{
+    background-color: lightgrey;
+    padding: 0.5em 2em;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial, sans-serif;
+    margin: 0 auto;
+}
+
+form{
+    
+}
+form div {
+    padding: 10px 0;
+ }
+ 
+label{
+    width: 120px
+}
+
+#enter{
+    width: 80px;
+    height: 50px;
+}
+.error{
+    color: red;
+    display: inline;
+    
+}
+
+table{
+    margin-top: 1em;
+    text-align: center
+}
+
+th, td{
+    padding: 3px 5px;
+    width: 100px;
+}
+
+th{
+    background-color: cornflowerblue;
+    color: #fff;
+    border: 1px solid black;
+}
+
+td{
+    background-color: azure;
+    padding: 4px 5px;
+}

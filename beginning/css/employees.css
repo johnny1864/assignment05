@@ -1,0 +1,59 @@
+body {
+    font-family: arial, sans-serif;
+    padding: 1em;
+}
+
+form {
+    width: 500px
+}
+
+form * {
+    display: block;
+}
+
+form *:focus {
+    box-shadow: 2px 2px 3px cyan;
+    background-color:
+}
+
+form input {
+    margin-bottom: 1em;
+    display: inline;
+    width: 200px
+}
+
+form span {
+    display: inline;
+    color: red;
+    padding-left: 5px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    font-size: 1.2em
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+table{
+    text-align: center;
+}
+
+th{
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 4px 5px;
+}
+
+td{
+    background-color: azure;
+    padding: 3px 5px;
+    width: 80px;
+}
+
+
